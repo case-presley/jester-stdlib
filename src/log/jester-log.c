@@ -1,4 +1,5 @@
 ﻿#include "jester/log/jester-log.h"
+#include "jester/datastructs/array/jester-dynamic-array.h"
 
 #include <stdarg.h>
 #include <stdbool.h>
@@ -76,7 +77,6 @@ bool log_init(const LogConfig_t* cfg)
 void log_msg(const LogLevel_t level, const char *file, const int line, const char *format, ...)
 {
     if (level < log_cfg.min_log_level) return;
-
 
     const time_t now = time(NULL);
     const struct tm tm = *localtime(&now);
