@@ -1,5 +1,5 @@
 ﻿/**
- * @headerfile jester-dynamic-array.h
+ * @headerfile jester_dynamic_array.h
  * @brief      Generic dynamic array implementation for the Jester stdlib.
  *
  * @details    Provides type-agnostic creation, push, get, clear, free,

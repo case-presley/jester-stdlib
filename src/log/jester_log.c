@@ -1,5 +1,5 @@
-﻿#include "jester/log/jester-log.h"
-#include "jester/datastructs/array/jester-dynamic-array.h"
+﻿#include "jester/log/jester_log.h"
+#include "jester/data_structures/array/jester_dynamic_array.h"
 
 #include <stdarg.h>
 #include <stdbool.h>

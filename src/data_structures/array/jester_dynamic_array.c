@@ -17,7 +17,7 @@
  */
 
 //-------------------- INCLUDE FILES -------------------------┑
-#include "jester/datastructs/array/jester-dynamic-array.h" // |
+#include "jester/data_structures/array/jester_dynamic_array.h" // |
 #include <stdlib.h>                                        // |
 #include <string.h>                                        // |
 //------------------------------------------------------------┙

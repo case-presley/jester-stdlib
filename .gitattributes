@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.h linguist-language=C
+tests/* linguist-vendored
+vendor/* linguist-vendored

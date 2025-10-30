@@ -1,3 +1,3 @@
 ﻿#pragma once
-#include "jester/log/jester-log.h"
-#include "jester/datastructs/jester-datastructs.h"
+#include "jester/data_structures/jester_data_structures.h"
+#include "jester/log/jester_log.h"
